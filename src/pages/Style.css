@@ -1,0 +1,297 @@
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2% !important;
+    background: #111;
+    color: white;
+    box-shadow: 2px 5px 5px #363434;
+}
+.header img{
+    height:30px ;
+}
+.header .links{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+   margin-right: 5%;
+    gap: 40px;
+}
+.header .links a{
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    font-size: 17px;
+}
+.header button{
+    padding: 6px 30px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: blue;
+}
+.Main-container{
+    width: 100%;
+    height: 600px;
+    align-items: start;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    background: url('https://images.pexels.com/photos/262524/pexels-photo-262524.jpeg');
+    -webkit-background-size:cover;
+    background-position: 0px;
+    object-fit: cover;
+}
+.Main-container h2{
+    font-size: 60px;
+    gap: 2px;
+    font-style: oblique;
+    font-weight: 999;
+    color: rgb(4, 4, 90);
+}
+.Matches-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 350px !important;
+    padding: 10px 0%;
+    gap: 10px;
+}
+
+
+.Matches-container  .box1,
+.Matches-container .box2{
+display: flex;
+flex-direction: column;
+width: 50%;
+border-radius: 5px;
+height: 100%;
+box-shadow: 3px 3px 3px rgb(157, 157, 235);
+align-items: center;
+justify-content: center;
+}
+.Matches-container .box3,
+.Matches-container .box4{
+    display: flex;
+flex-direction: column;
+width: 50%;
+height: 100%;
+border-radius: 5px;
+box-shadow: 3px 3px 3px rgb(157, 157, 235);
+align-items: center;
+justify-content: center;
+}
+.box1{
+    width: 50% !important;
+}
+.box3{
+    background: url('https://themewagon.github.io/sports/images/img-02_003.jpg');
+    -webkit-background-size:cover;
+    background-position: 0px;
+    object-fit: cover;
+    padding-right: 40px;
+}
+.box2{
+    background: url('https://images.pexels.com/photos/260606/pexels-photo-260606.jpeg');
+    -webkit-background-size:cover;
+    background-position: 0px;
+    object-fit: cover;
+
+}
+.content{
+display: flex;
+flex-direction: row;
+gap: 40px !important;
+}
+.imgbox,
+.imgbox1{
+    display: flex;
+flex-direction: column;
+font-size: larger;
+align-items: center;
+gap: 30px;
+justify-content: center;
+}
+.box1,
+.box4{
+    background:#10375C;
+}
+i{
+    color: orange;
+    font-size: 32px;
+}
+h3{
+    color: white;
+}
+
+
+.Myname{
+    width: 100%;
+    background: url('https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg');
+    
+    height: 600px;
+    -webkit-background-size:cover;
+    background-position: 0px;
+    object-fit: cover;
+}
+/*cards css*/
+.events-container{
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-direction: column;
+    background: aliceblue;
+}
+.event-container{
+    width: 50%;
+    background: #111;
+}
+h1{
+    color: #10375C;
+    font-style: italic;
+}
+
+.events-container .cards{
+    width: 100%;
+    padding: 6px 20px;
+    background:#10375C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all ease-in 0.1s;
+}
+.events-container .cards:hover{
+    background: rgb(23, 104, 136);
+    transform: scale(1.01)
+}
+.events-container .cards img{
+    width: 300px;
+    
+    height: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.events-container .cards p{
+    font-size: 18px;
+}
+.events-container .cards p span{
+    color: white;
+    font-weight: 600;
+}
+
+.events-container .cards button{
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+    box-shadow: 1px 2px 2px 2px #9291e4;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* video.css */
+.video-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+    justify-content: center;
+    background: url('https://themewagon.github.io/sports/images/img-07.jpg');
+
+    -webkit-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .video-slider button {
+    gap: 30px;
+    margin-left: 30px;
+    background: transparent;
+  }
+  .footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    padding: 0px 7%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content:  start;
+}
+.footer .element{
+    width: 30%;
+    height: 100%;
+    display:  flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    padding: 3% 0%;
+    color: white;
+
+}
+.footer .element h2{
+    font-size: 20px;
+
+}
+.footer .element p{
+    width: 200px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.footer .element ul{
+    list-style: none;
+}
+.footer .element ul li{
+    margin: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer .element .input-field{
+    width: 100%;
+}
+
+.footer .element .input-field input{
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+
+    
+}
+.footer .element button{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+font-size: 16px;
+border: grey;
+    text-align: center;
+}
+
+  
+  
+  
